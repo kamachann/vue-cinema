@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <title>VUE-cinema</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header__poster">
+            <img src="./assets/images/poster.svg" alt="poster">
+            <span>See no special offer restrictions</span>
+        </div>
+
+
+    </header>
+
+    <div class="header__menu">
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24">
+                <path fill="white"
+                    d="M80-160v-160h160v160H80Zm240 0v-160h560v160H320ZM80-400v-160h160v160H80Zm240 0v-160h560v160H320ZM80-640v-160h160v160H80Zm240 0v-160h560v160H320Z" />
+            </svg>
+        </label>
+        <nav class="nav">
+            <div class="container nav__content">
+                <a href="#!" class="nav__logo">
+                    <img src="./assets/images/logo.svg" alt="logo">
+                    <span>cinemas</span>
+                </a>
+
+
+                <ul class="nav__list">
+                    <li>
+                        <a href="#!" data-link="Films" class="nav__list-link">
+                            Films
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#!" data-link="Serials" class="nav__list-link">
+                            Serials
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#!" data-link="Cartoons" class="nav__list-link">
+                            Cartoons
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#!" data-link="Collections" class="nav__list-link">
+                            Collections
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <main class="main">
+        <section class="trailer">
+
+            <div class="container trailer__content">
+                <h1 class="trailer__title">Kong: Skull Island</h1>
+                <p class="trailer__descr">
+                    The film takes the viewer to the 70s of the last century. The protagonist organizes an expedition to
+                    the Skull island, always covered in fog, on which King Kong was once caught to find the missing
+                    brother and some mysterious substance. During...
+                </p>
+                <div class="trailer_btns">
+                    <button class="trailer_btn">
+                        Watch now
+                    </button>
+
+                    <button class="trailer_btn">
+                        Download
+                    </button>
+                </div>
+            </div>
+
+
+
+        </section>
+        <section class="films">
+            <div class="container films__content">
+                <h2 class="films__title primary-title">
+                    Films
+                </h2>
+                <div class="films__cards">
+                    <div class="films__cards-item">
+                        <img class="films__cards-item-bg" src="./assets/images/photo_2024-03-30_12-55-17.jpg" alt="">
+                        <div class="films__cards-item-content">
+                            <img src="./assets/images/Group.svg" alt="">
+                            <span>2:14:33</span>
+                            <h2>Black Panther</h2>
+                            <p>At first glance, you can decide that Wakanda is an ordinary territory of wild Africa, but
+                                this is not so. Here, in the bowels of the desert lands, there are hidden deposits of a
+                                unique metal capable of absorbing...</p>
+                        </div>
+                    </div>
+                    <div class="films__cards-item">
+                        <img class="films__cards-item-bg" src="./assets/images/_poster 2.png" alt="">
+                        <div class="films__cards-item-content">
+                            <img src="./assets/images/Group.svg" alt="">
+                            <span>2:32:13</span>
+                            <h2>The Dark Knight</h2>
+                            <p>Batman raises stakes in the war on crime. With the help of Lieutenant Jim Gordon and
+                                Attorney Harvey Dent, he intends to clear the streets of crime that is poisoning the
+                                city. The cooperation is effective, but soon they...</p>
+                        </div>
+                    </div>
+                    <div class="films__cards-item">
+                        <img class="films__cards-item-bg" src="./assets/images/_poster 3.png" alt="">
+                        <div class="films__cards-item-content">
+                            <img src="./assets/images/Group.svg" alt="">
+                            <span>1:53:45</span>
+                            <h2>The Gentlemen</h2>
+                            <p>One cunning American, from his student years, had been selling drugs, and now he came up
+                                with a scheme of illegal enrichment using the estates of an impoverished English
+                                aristocracy and made a very good fortune on ...</p>
+                        </div>
+                    </div>
+                    <div class="films__cards-item">
+                        <img class="films__cards-item-bg" src="./assets/images/poster 4.png" alt="">
+                        <div class="films__cards-item-content">
+                            <img src="./assets/images/Group.svg" alt="">
+                            <span class="span">2<span>:</span>58<span>:</span>20</span>
+                            <h2>The Lord of the...</h2>
+                            <p>Tales of Middle-earth is a chronicle of the Great War for the Ring, a war that lasted
+                                more than one thousand years. The one who owned the Ring received power over all living
+                                creatures, but was obliged to serve evil...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="trailer__video">
+            <video src="./assets/video/Marvel Studios' Black Widow _ Final Trailer.mp4" class="trailer__video_bg"
+                autoplay muted loop></video>
+            <div class="container trailer__video_content">
+                <img src="./assets/images/blackwidow.jpg" alt="">
+                <p class="trailer__video_descr">
+                    After the events at the Leipzig-Halle airport, Natasha was overtaken by the mistakes of the past.
+                    The Red Room again made itself felt - a program to create Widows - professional killers and spies -
+                    just like her. Natasha decides once and for all to deal with people whose efforts she herself became
+                    a Widow.
+                </p>
+                <button class="trailer_btn ">
+                    Watch now
+                </button>
+            </div>
+        </section>
+        <section class="collections">
+            <div class="container collection_content">
+                <h2 class="primary-title">Collections</h2>
+                <div class="collection_cards">
+                    <div class="collections__card">
+                        <img class="collections__card_bg" src="./assets/images/card1.jpg" alt="">
+                        <div class="collections_card_content">
+                            <div class="square_set">
+                                <div class="square"></div>
+                                <div class="square"></div>
+                                <div class="square"></div>
+                                <div class="square"></div>
+                                <div class="square"></div>
+                            </div>
+                            <img src="./assets/images/Group.svg" alt="">
+                            <span>All Marvel Films</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="series">
+            <div class="container series_content">
+                <h2 class="primary-title">Series</h2>
+                <div class="series_items">
+                    <div class="series_maincard">
+                        <img src="./assets/images/grid1.png" alt="">
+                    </div>
+                    <div class="series_item first__item">
+                        <img src="./assets/images/grid2.png" alt="">
+                    </div>
+                    <div class="series_item">
+                        <img src="./assets/images/grid3.png" alt="">
+                    </div>
+                    <div class="series_item">
+                        <img src="./assets/images/grid4.png" alt="">
+                    </div>
+                    <div class="series_item">
+                        <img src="./assets/images/grid5.png" alt="">
+                    </div>
+                    <div class="series_item">
+                        <img src="./assets/images/grid6.png" alt="">
+                    </div>
+                </div>]
+            </div>
+        </section>
+
+
+
+
+
+    </main>
+</body>
+
+</html>
